@@ -24,4 +24,5 @@ export enum Project {
   SOCKET_GHST_TEST_TESTNET = "socket_ghst_test_testnet",
   GHST_UNWRAPSUPERTOKEN_TESTNET = "ghst_unwrapsupertoken_testnet",
   SOCKET_GHST_TESTNET = "socket_ghst_testnet",
+  ALCHEMICA_TESTNET = "alchemica_testnet",
 }
