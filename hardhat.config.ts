@@ -49,8 +49,8 @@ export enum CustomNetworks {
 
 export const CustomNetworksConfig = {
   [CustomNetworks.POLTER_TESTNET]: {
-    chainId: 398274,
-    url: process.env.POLTER_DEVNET_RPC || "none",
+    chainId: 631571,
+    url: process.env.POLTER_TESTNET_RPC || "none",
     accounts: [`0x${privateKey}`],
   },
   [CustomNetworks.POLYGON_AMOY]: {
@@ -124,6 +124,7 @@ const config: HardhatUserConfig = {
       [HardhatChainName.REYA]: "none",
       [HardhatChainName.AEVO]: "none",
       [CustomNetworks.POLTER_TESTNET]: "none",
+      [CustomNetworks.POLYGON_AMOY]: process.env.POLYGONSCAN_API_KEY || "",
     },
     // Custom chains for verification. These are only for verification to work. The hardhat etherscan plugin does not support these chains.
     customChains: [
@@ -213,7 +214,7 @@ const config: HardhatUserConfig = {
         network: CustomNetworks.POLYGON_AMOY,
         chainId: CustomNetworksConfig[CustomNetworks.POLYGON_AMOY].chainId,
         urls: {
-          apiURL: "https://polter-sepolia-explorer-be.devnet.alchemy.com/api",
+          apiURL: "https://api-amoy.polygonscan.com/api",
           browserURL: "https://amoy.polygonscan.com/",
         },
       },
