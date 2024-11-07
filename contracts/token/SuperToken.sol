@@ -49,10 +49,10 @@ contract SuperToken is ERC20, RescueBase {
         _mint(receiver_, amount_);
     }
 
-    //allow realDiamobd to mint alchemica tokens
+    //allow realDiamond to mint alchemica tokens
     function grantRealmDiamondMinterRole(
         address _realmDiamond
     ) public onlyOwner {
-        _grantRole(RESCUE_ROLE, _realmDiamond);
+        _grantRole(CONTROLLER_ROLE, _realmDiamond);
     }
 }

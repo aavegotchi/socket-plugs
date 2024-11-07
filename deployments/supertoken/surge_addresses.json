@@ -29,83 +29,75 @@
     "80002": {
       "FUD": {
         "NonMintableToken": "0xaa1C59f2B45EF192B71De7d0CB5d95b664749d9c",
-        "Vault": "0xFbfd7EA574021A5b70362c0e807e0d5f63cdf35E",
-        "LimitHook": "0x332056ed6EC3c1f137163B70145A4607E624E4a2",
+        "Vault": "0x662DAE22aBeCc858dDb8ce9dE4d8ac2b478C97ad",
         "connectors": {
           "631571": {
-            "FAST": "0x2de3FA8C5299DE8B1D11f4f4DD67BdF5DDA45FFf"
+            "FAST": "0xe14f6Be6D752ED55D0DBF0Ff4eB14E821e3bCA67"
           }
         }
       },
       "FOMO": {
         "NonMintableToken": "0x616d6Df54A9754B81aa43971794D86B3C229fA8B",
-        "Vault": "0xCD824CA4851635E1994F5f8c68a07e14eED806D0",
-        "LimitHook": "0xC170f496F292715419b23a6DC2eCF33f1Cf76dDb",
+        "Vault": "0xd789D074156ad17EDC6CC237652079126182E0CE",
         "connectors": {
           "631571": {
-            "FAST": "0xbCf887F7AC32e208083b3bc02B3c2bB4Dd0F64c9"
+            "FAST": "0x78CEb47905083922e42768298B92a5a65Ef1271a"
           }
         }
       },
       "ALPHA": {
         "NonMintableToken": "0x44bca9B7C2C5F9f47D4da5B72deCdcF3a42535d8",
-        "Vault": "0x2Bb596e5999DC9761a195D3d7063037eFd40aD29",
-        "LimitHook": "0xCD2358d774bfA4157a5515b72Ecc61C1783d1227",
+        "Vault": "0xf077EB43513167c43814160153A4781B61C13857",
         "connectors": {
           "631571": {
-            "FAST": "0xB6B495d8172C61f0DbC98bc5372699F83d1ef32E"
+            "FAST": "0x3119AA9247F97Ef4A54b418a8eBA7D0e438CDeAA"
           }
         }
       },
       "KEK": {
         "NonMintableToken": "0x9b39452041aCe85C03D3Ae76D0D5ccFf3a86dEc9",
-        "Vault": "0xF4621358cf91fD04900e212B715232aca05C0cA0",
-        "LimitHook": "0x38148A037fC52f4A6564ef49E84CB9C70C000DdD",
+        "Vault": "0x0dcd89CBcf350B4CE7266B94389c9796E5e14819",
         "connectors": {
           "631571": {
-            "FAST": "0x8097AB956fCd48Cc8C404254F1981184Bf85DDbD"
+            "FAST": "0x8587dAeb346350aB2Bb420AA2Cec0cbedF8465eb"
           }
         }
       }
     },
     "631571": {
       "FUD": {
-        "SuperToken": "0x2697eEBbFaD10B4414a744EF7893A44781Aca754",
-        "Controller": "0x0e7BD21bF8bcf891B7e7d080511e1704D3649702",
-        "LimitHook": "0x584D9160947b7Fc3f4236EA6B50D83bdd9B5f7FD",
+        "SuperToken": "0xDe400e81E17a4a0A3346083fdFA0095A3DB8F5ad",
+        "Controller": "0x19dca6C3b028949c8929a3577fc450bF7FC253CA",
         "connectors": {
           "80002": {
-            "FAST": "0xDCFF12e78192f78e2dC0D3ebA5D37f1cb41DC7a9"
+            "FAST": "0x69E690372878BdF1af57493f7bF908a48e6e081B"
           }
         }
       },
       "FOMO": {
-        "SuperToken": "0x946365AbA8223bEE245beC2968e5Ddd7540f32E7",
-        "Controller": "0x8D80240d06943C45Be1163be9c19C083E66eB8F3",
-        "LimitHook": "0x97653CEC74aaC5b6462DF3AAE71A84A63bA65Bc2",
+        "SuperToken": "0x6c1416c181ad94e53B7E594A0bcB2ea4a252B685",
+        "Controller": "0xF7339c32E3bD4d563E55dbC316aA3A09d17A87Da",
         "connectors": {
           "80002": {
-            "FAST": "0x5F5e865c9A26c1d6a029327956b1c2d8CBa79730"
+            "FAST": "0x5F8dc51766ebe74c4a3fED2E7b504b1561931297"
           }
         }
       },
       "ALPHA": {
-        "SuperToken": "0x61B4B9575690C1F0b6FdD61F09354D0970d3F4f1",
-        "Controller": "0xDb143146C740a6DC734D72114030400360370D23",
-        "LimitHook": "0x8A69BC47084C94548b1417BBB00Aa20CD47b4155",
+        "SuperToken": "0x26b133c4A2C85D7e980D64726D9C05A504c7099B",
+        "Controller": "0x94d55f5ef2d3eEac1B86541279f625d8032161D6",
         "connectors": {
           "80002": {
-            "FAST": "0x5421ec8f809B7Fb9E6A2E0d41eDcC190a5de500E"
+            "FAST": "0xc850fB00f23e82941898f137A6C02ade027c8832"
           }
         }
       },
       "KEK": {
-        "SuperToken": "0xa8377d8A0ee92120095bC7ae2d8A8E1973CcEa95",
-        "Controller": "0xDbaBdaE0B8a4791Ce6aDab0763a6D5885f2D98cA",
-        "LimitHook": "0xDDcD447C25C0DBeb8C099C99409E09C46dc37b86",
+        "SuperToken": "0x881024E96fE3fAb34867E735626c29c18f8F9B2C",
+        "Controller": "0xc5782A8202A184De449672AAD40fb8555EC7B452",
         "connectors": {
           "80002": {
-            "FAST": "0xF1077aDc70E653F96B325Bc33924Ba8BB4b056AD"
+            "FAST": "0xd526f348b38FD26e33D4EE4c4A0313232059c042"
           }
         }
       }

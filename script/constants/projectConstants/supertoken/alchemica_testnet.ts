@@ -13,24 +13,10 @@ export const pc: ProjectConstants = {
       vaultChains: [80002],
       controllerChains: [631571],
       hook: {
-        hookType: Hooks.LIMIT_HOOK,
-        limitsAndPoolId: {
-          80002: {
-            [IntegrationTypes.fast]: {
-              sendingLimit: "10000000000000000000000000",
-              receivingLimit: "100000000000000000000000",
-            },
-          },
-          631571: {
-            [IntegrationTypes.fast]: {
-              sendingLimit: "10000000000000000000000000",
-              receivingLimit: "100000000000000000000000",
-            },
-          },
-        },
+        hookType: Hooks.NO_HOOK,
       },
       superTokenInfo: {
-        name: Tokens.FUD,
+        name: "Aavegotchi Gotchiverse Fud",
         symbol: Tokens.FUD,
         decimals: 18,
         owner: "0xB9D736c48351Bad464710ee73BA80A0A659c1795",
@@ -42,24 +28,10 @@ export const pc: ProjectConstants = {
       vaultChains: [80002],
       controllerChains: [631571],
       hook: {
-        hookType: Hooks.LIMIT_HOOK,
-        limitsAndPoolId: {
-          80002: {
-            [IntegrationTypes.fast]: {
-              sendingLimit: "1000000000000000000000000000",
-              receivingLimit: "100000000000000000000000000",
-            },
-          },
-          631571: {
-            [IntegrationTypes.fast]: {
-              sendingLimit: "1000000000000000000000000000",
-              receivingLimit: "100000000000000000000000000",
-            },
-          },
-        },
+        hookType: Hooks.NO_HOOK,
       },
       superTokenInfo: {
-        name: "Aavegotchi Fomo",
+        name: "Aavegotchi Gotchiverse Fomo",
         symbol: Tokens.FOMO,
         decimals: 18,
         owner: "0xB9D736c48351Bad464710ee73BA80A0A659c1795",
@@ -71,24 +43,10 @@ export const pc: ProjectConstants = {
       vaultChains: [80002],
       controllerChains: [631571],
       hook: {
-        hookType: Hooks.LIMIT_HOOK,
-        limitsAndPoolId: {
-          80002: {
-            [IntegrationTypes.fast]: {
-              sendingLimit: "1000000000000000000000000",
-              receivingLimit: "100000000000000000000000",
-            },
-          },
-          631571: {
-            [IntegrationTypes.fast]: {
-              sendingLimit: "1000000000000000000000000",
-              receivingLimit: "100000000000000000000000",
-            },
-          },
-        },
+        hookType: Hooks.NO_HOOK,
       },
       superTokenInfo: {
-        name: "Aavegotchi Alpha",
+        name: "Aavegotchi Gotchiverse Alpha",
         symbol: Tokens.ALPHA,
         decimals: 18,
         owner: "0xB9D736c48351Bad464710ee73BA80A0A659c1795",
@@ -100,24 +58,25 @@ export const pc: ProjectConstants = {
       vaultChains: [80002],
       controllerChains: [631571],
       hook: {
-        hookType: Hooks.LIMIT_HOOK,
-        limitsAndPoolId: {
-          80002: {
-            [IntegrationTypes.fast]: {
-              sendingLimit: "1000000000000000000000000000",
-              receivingLimit: "100000000000000000000000000",
-            },
-          },
-          631571: {
-            [IntegrationTypes.fast]: {
-              sendingLimit: "1000000000000000000000000000",
-              receivingLimit: "100000000000000000000000000",
-            },
-          },
-        },
+        hookType: Hooks.NO_HOOK,
       },
       superTokenInfo: {
-        name: "Aavegotchi Kek",
+        name: "Aavegotchi Gotchiverse Kek",
+        symbol: Tokens.KEK,
+        decimals: 18,
+        owner: "0xB9D736c48351Bad464710ee73BA80A0A659c1795",
+        initialSupplyOwner: "0xB9D736c48351Bad464710ee73BA80A0A659c1795",
+        initialSupply: "0",
+      },
+    },
+    [Tokens.GLTR]: {
+      vaultChains: [80002],
+      controllerChains: [631571],
+      hook: {
+        hookType: Hooks.NO_HOOK,
+      },
+      superTokenInfo: {
+        name: "Aavegotchi Gotchiverse Gltr",
         symbol: Tokens.KEK,
         decimals: 18,
         owner: "0xB9D736c48351Bad464710ee73BA80A0A659c1795",

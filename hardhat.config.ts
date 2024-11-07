@@ -206,8 +206,8 @@ const config: HardhatUserConfig = {
         network: CustomNetworks.POLTER_TESTNET,
         chainId: CustomNetworksConfig[CustomNetworks.POLTER_TESTNET].chainId,
         urls: {
-          apiURL: "https://polter-sepolia-explorer-be.devnet.alchemy.com/api",
-          browserURL: "https://polter-sepolia-explorer.devnet.alchemy.com/",
+          apiURL: "https://polter-testnet.explorer.alchemy.com/api",
+          browserURL: "https://polter-testnet.explorer.alchemy.com/",
         },
       },
       {
