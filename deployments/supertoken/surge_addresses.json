@@ -62,6 +62,15 @@
             "FAST": "0x8587dAeb346350aB2Bb420AA2Cec0cbedF8465eb"
           }
         }
+      },
+      "GLTR": {
+        "NonMintableToken": "0x7E4CB2bc361898bB17C8D847032676A7Fd23D625",
+        "Vault": "0x41D59970D8548262E6F85a269F4E6101aF5Bf0E8",
+        "connectors": {
+          "631571": {
+            "FAST": "0xaCF7f33af80bD89E88ADe76356F809f3A93e5542"
+          }
+        }
       }
     },
     "631571": {
@@ -98,6 +107,15 @@
         "connectors": {
           "80002": {
             "FAST": "0xd526f348b38FD26e33D4EE4c4A0313232059c042"
+          }
+        }
+      },
+      "GLTR": {
+        "SuperToken": "0x0317411380788e7F67a7c1EC40427aB1940f7eD7",
+        "Controller": "0x6f0747621A676C6938C3af246B57f63d78f59500",
+        "connectors": {
+          "80002": {
+            "FAST": "0xBE7dD1e6E44e4aB5Ef61dB70129fE072367E9170"
           }
         }
       }
