@@ -1,4 +1,3 @@
-
 import {
   ChainSlug,
   DeploymentMode,
@@ -19,16 +18,16 @@ export const pc: ProjectConstants = {
           [ChainSlug.POLYGON_MAINNET]: {
             [IntegrationTypes.fast]: {
               sendingLimit: "10000000",
-              receivingLimit: "10000000"
-            }
+              receivingLimit: "10000000",
+            },
           },
           [ChainSlug.GEIST]: {
             [IntegrationTypes.fast]: {
               sendingLimit: "10000000",
-              receivingLimit: "10000000"
-            }
-          }
-        }
+              receivingLimit: "10000000",
+            },
+          },
+        },
       },
       superTokenInfo: {
         name: "Aavegotchi Gotchiverse FUD",
@@ -36,8 +35,8 @@ export const pc: ProjectConstants = {
         decimals: 18,
         owner: "0x3a2E7D1E98A4a051B0766f866237c73643fDF360",
         initialSupplyOwner: "0x3a2E7D1E98A4a051B0766f866237c73643fDF360",
-        initialSupply: "0"
-      }
+        initialSupply: "0",
+      },
     },
     [Tokens.FOMO]: {
       vaultChains: [ChainSlug.POLYGON_MAINNET],
@@ -48,16 +47,16 @@ export const pc: ProjectConstants = {
           [ChainSlug.POLYGON_MAINNET]: {
             [IntegrationTypes.fast]: {
               sendingLimit: "10000000",
-              receivingLimit: "10000000"
-            }
+              receivingLimit: "10000000",
+            },
           },
           [ChainSlug.GEIST]: {
             [IntegrationTypes.fast]: {
               sendingLimit: "10000000",
-              receivingLimit: "10000000"
-            }
-          }
-        }
+              receivingLimit: "10000000",
+            },
+          },
+        },
       },
       superTokenInfo: {
         name: "Aavegotchi Gotchiverse FOMO",
@@ -65,8 +64,8 @@ export const pc: ProjectConstants = {
         decimals: 18,
         owner: "0x3a2E7D1E98A4a051B0766f866237c73643fDF360",
         initialSupplyOwner: "0x3a2E7D1E98A4a051B0766f866237c73643fDF360",
-        initialSupply: "0"
-      }
+        initialSupply: "0",
+      },
     },
     [Tokens.ALPHA]: {
       vaultChains: [ChainSlug.POLYGON_MAINNET],
@@ -77,16 +76,16 @@ export const pc: ProjectConstants = {
           [ChainSlug.POLYGON_MAINNET]: {
             [IntegrationTypes.fast]: {
               sendingLimit: "10000000",
-              receivingLimit: "10000000"
-            }
+              receivingLimit: "10000000",
+            },
           },
           [ChainSlug.GEIST]: {
             [IntegrationTypes.fast]: {
               sendingLimit: "10000000",
-              receivingLimit: "10000000"
-            }
-          }
-        }
+              receivingLimit: "10000000",
+            },
+          },
+        },
       },
       superTokenInfo: {
         name: "Aavegotchi Gotchiverse ALPHA",
@@ -94,8 +93,8 @@ export const pc: ProjectConstants = {
         decimals: 18,
         owner: "0x3a2E7D1E98A4a051B0766f866237c73643fDF360",
         initialSupplyOwner: "0x3a2E7D1E98A4a051B0766f866237c73643fDF360",
-        initialSupply: "0"
-      }
+        initialSupply: "0",
+      },
     },
     [Tokens.KEK]: {
       vaultChains: [ChainSlug.POLYGON_MAINNET],
@@ -106,16 +105,16 @@ export const pc: ProjectConstants = {
           [ChainSlug.POLYGON_MAINNET]: {
             [IntegrationTypes.fast]: {
               sendingLimit: "10000000",
-              receivingLimit: "10000000"
-            }
+              receivingLimit: "10000000",
+            },
           },
           [ChainSlug.GEIST]: {
             [IntegrationTypes.fast]: {
               sendingLimit: "10000000",
-              receivingLimit: "10000000"
-            }
-          }
-        }
+              receivingLimit: "10000000",
+            },
+          },
+        },
       },
       superTokenInfo: {
         name: "Aavegotchi Gotchiverse KEK",
@@ -123,8 +122,8 @@ export const pc: ProjectConstants = {
         decimals: 18,
         owner: "0x3a2E7D1E98A4a051B0766f866237c73643fDF360",
         initialSupplyOwner: "0x3a2E7D1E98A4a051B0766f866237c73643fDF360",
-        initialSupply: "0"
-      }
+        initialSupply: "0",
+      },
     },
     [Tokens.GLTR]: {
       vaultChains: [ChainSlug.POLYGON_MAINNET],
@@ -135,16 +134,16 @@ export const pc: ProjectConstants = {
           [ChainSlug.POLYGON_MAINNET]: {
             [IntegrationTypes.fast]: {
               sendingLimit: "10000000",
-              receivingLimit: "10000000"
-            }
+              receivingLimit: "10000000",
+            },
           },
           [ChainSlug.GEIST]: {
             [IntegrationTypes.fast]: {
               sendingLimit: "10000000",
-              receivingLimit: "10000000"
-            }
-          }
-        }
+              receivingLimit: "10000000",
+            },
+          },
+        },
       },
       superTokenInfo: {
         name: "Aavegotchi GLTR Token",
@@ -152,8 +151,8 @@ export const pc: ProjectConstants = {
         decimals: 18,
         owner: "0x3a2E7D1E98A4a051B0766f866237c73643fDF360",
         initialSupplyOwner: "0x3a2E7D1E98A4a051B0766f866237c73643fDF360",
-        initialSupply: "0"
-      }
-    }
-  }
+        initialSupply: "0",
+      },
+    },
+  },
 };

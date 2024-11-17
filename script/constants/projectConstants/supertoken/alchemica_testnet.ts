@@ -1,4 +1,3 @@
-
 import {
   ChainSlug,
   DeploymentMode,
@@ -14,7 +13,7 @@ export const pc: ProjectConstants = {
       vaultChains: [80002],
       controllerChains: [631571],
       hook: {
-        hookType: Hooks.NO_HOOK
+        hookType: Hooks.NO_HOOK,
       },
       superTokenInfo: {
         name: "Aavegotchi Gotchiverse Fud",
@@ -22,14 +21,14 @@ export const pc: ProjectConstants = {
         decimals: 18,
         owner: "0xB9D736c48351Bad464710ee73BA80A0A659c1795",
         initialSupplyOwner: "0xB9D736c48351Bad464710ee73BA80A0A659c1795",
-        initialSupply: "0"
-      }
+        initialSupply: "0",
+      },
     },
     [Tokens.FOMO]: {
       vaultChains: [80002],
       controllerChains: [631571],
       hook: {
-        hookType: Hooks.NO_HOOK
+        hookType: Hooks.NO_HOOK,
       },
       superTokenInfo: {
         name: "Aavegotchi Gotchiverse Fomo",
@@ -37,14 +36,14 @@ export const pc: ProjectConstants = {
         decimals: 18,
         owner: "0xB9D736c48351Bad464710ee73BA80A0A659c1795",
         initialSupplyOwner: "0xB9D736c48351Bad464710ee73BA80A0A659c1795",
-        initialSupply: "0"
-      }
+        initialSupply: "0",
+      },
     },
     [Tokens.ALPHA]: {
       vaultChains: [80002],
       controllerChains: [631571],
       hook: {
-        hookType: Hooks.NO_HOOK
+        hookType: Hooks.NO_HOOK,
       },
       superTokenInfo: {
         name: "Aavegotchi Gotchiverse Alpha",
@@ -52,14 +51,14 @@ export const pc: ProjectConstants = {
         decimals: 18,
         owner: "0xB9D736c48351Bad464710ee73BA80A0A659c1795",
         initialSupplyOwner: "0xB9D736c48351Bad464710ee73BA80A0A659c1795",
-        initialSupply: "0"
-      }
+        initialSupply: "0",
+      },
     },
     [Tokens.KEK]: {
       vaultChains: [80002],
       controllerChains: [631571],
       hook: {
-        hookType: Hooks.NO_HOOK
+        hookType: Hooks.NO_HOOK,
       },
       superTokenInfo: {
         name: "Aavegotchi Gotchiverse Kek",
@@ -67,14 +66,14 @@ export const pc: ProjectConstants = {
         decimals: 18,
         owner: "0xB9D736c48351Bad464710ee73BA80A0A659c1795",
         initialSupplyOwner: "0xB9D736c48351Bad464710ee73BA80A0A659c1795",
-        initialSupply: "0"
-      }
+        initialSupply: "0",
+      },
     },
     [Tokens.GLTR]: {
       vaultChains: [80002],
       controllerChains: [631571],
       hook: {
-        hookType: Hooks.NO_HOOK
+        hookType: Hooks.NO_HOOK,
       },
       superTokenInfo: {
         name: "Aavegotchi Gotchiverse Kek",
@@ -82,8 +81,8 @@ export const pc: ProjectConstants = {
         decimals: 18,
         owner: "0xB9D736c48351Bad464710ee73BA80A0A659c1795",
         initialSupplyOwner: "0xB9D736c48351Bad464710ee73BA80A0A659c1795",
-        initialSupply: "0"
-      }
-    }
-  }
+        initialSupply: "0",
+      },
+    },
+  },
 };
