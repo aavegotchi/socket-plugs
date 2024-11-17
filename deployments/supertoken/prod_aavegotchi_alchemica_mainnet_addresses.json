@@ -1,0 +1,106 @@
+{
+  "137": {
+    "FUD": {
+      "NonMintableToken": "0x403e967b044d4be25170310157cb1a4bf10bdd0f",
+      "Vault": "0xE24298D0059a68Ab8d59dBC75985A64d095bbACD",
+      "LimitHook": "0xE52b9170fF4ece4C35E796Ffd74B57Dec68Ca0e5",
+      "connectors": {
+        "63157": {
+          "FAST": "0x5e294A13E01e78fbE02C17d966BdA39bd1Ccf6c4"
+        }
+      }
+    },
+    "FOMO": {
+      "NonMintableToken": "0x44a6e0be76e1d9620a7f76588e4509fe4fa8e8c8",
+      "Vault": "0x1cF8dc59A72a81d5D9D1e6BDa3FBC1657b0714aE",
+      "LimitHook": "0x4D140CE792bEdc430498c2d219AfBC33e2992c9D",
+      "connectors": {
+        "63157": {
+          "FAST": "0x02135A3D139A5375d30e22Ef5f6945c896aeae65"
+        }
+      }
+    },
+    "ALPHA": {
+      "NonMintableToken": "0x6a3e7c3c6ef65ee26975b12293ca1aad7e1daed2",
+      "Vault": "0xA82947990B9622de613456d45C52bA99Ae0B047f",
+      "LimitHook": "0x54F440a4A346bdF50B5C09b7A4bdF59f06A36b3e",
+      "connectors": {
+        "63157": {
+          "FAST": "0x7b9315A6aebF39d58E169596980069c14A21AC91"
+        }
+      }
+    },
+    "KEK": {
+      "NonMintableToken": "0x42e5e06ef5b90fe15f853f59299fc96259209c5c",
+      "Vault": "0xbc48A7882955592D9bf4035E3eFa35ED40672d9B",
+      "LimitHook": "0x766119F9Dfb3021747678D6e76fdA4272D6F05BC",
+      "connectors": {
+        "63157": {
+          "FAST": "0xd3a456918BD38Bb4E1910333f09411d619E47800"
+        }
+      }
+    },
+    "GLTR": {
+      "NonMintableToken": "0x3801C3B3B5c98F88a9c9005966AA96aa440B9Afc",
+      "Vault": "0xA5562dA24474B61a2a3bC8B5544f550Cdf920289",
+      "LimitHook": "0xbDa22cf921957bd60eaE848Ed3f97B58ce8d9a8F",
+      "connectors": {
+        "63157": {
+          "FAST": "0xCE7694da010Fae787D1c861Ef38302aDD1C902Df"
+        }
+      }
+    }
+  },
+  "63157": {
+    "FUD": {
+      "SuperToken": "0x45a75B81f95FA0C27fa386cd7923a6AaE1858D8c",
+      "Controller": "0xb09e9A82B558955B31F84489A46B791288896aBD",
+      "LimitHook": "0x05F97E9D23b0DFA96A1c349a6685B2A046729F37",
+      "connectors": {
+        "137": {
+          "FAST": "0x8cDAa1184A75e00ea82262723beA47BA81AA78e9"
+        }
+      }
+    },
+    "FOMO": {
+      "SuperToken": "0xA18510f2ABA401A26E94c61de356B6caA9df2761",
+      "Controller": "0x79E6aA4B2Ca1336b7CA8188B22E7259862A93A46",
+      "LimitHook": "0x517ea555EbF55A8E273058222BA8D3826c1E5670",
+      "connectors": {
+        "137": {
+          "FAST": "0x3D3Bef5f85A667e0b28Db33668CE1929089e5e1a"
+        }
+      }
+    },
+    "ALPHA": {
+      "SuperToken": "0xcCDA08a4EE78Ee6adf033722365729Bd891cE5C0",
+      "Controller": "0x5311DA5389e729fE60FABb8FB3cA0847783Fb930",
+      "LimitHook": "0xc4a5314432BDa6C6b6d09900D18147eb5e2BD7b2",
+      "connectors": {
+        "137": {
+          "FAST": "0x063c7aa81584b4d37041c6395996f3a36E77B44B"
+        }
+      }
+    },
+    "KEK": {
+      "SuperToken": "0xae99B27EdF1db7Df6eF7C15E3F40cA5666Bd950D",
+      "Controller": "0x7f7Ca5CB3a118801DBA5b9E4BCbC274E640625AD",
+      "LimitHook": "0x159513433d1fAD2f52Db474bE3B51de4ACBD161B",
+      "connectors": {
+        "137": {
+          "FAST": "0xE441df9848b7C4f15d77c926405B20723268f30A"
+        }
+      }
+    },
+    "GLTR": {
+      "SuperToken": "0x1Cf08D9b7860D1fDB10F01f14e56AbcE15D14Bcf",
+      "Controller": "0xb5e79F1fBeC25fcDA61A9Ad48D054A356469c586",
+      "LimitHook": "0x9e37850e9A4C4fE23B8B60bC203C0e3e7EEBdd5c",
+      "connectors": {
+        "137": {
+          "FAST": "0xDF6725e65547E03E0F965395c44211b87C32Aa78"
+        }
+      }
+    }
+  }
+}

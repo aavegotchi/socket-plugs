@@ -79,9 +79,8 @@ export const overrides: {
     gasPrice,
   },
   [ChainSlug.POLYGON_MAINNET]: {
-    // type: 1,
-    // gasLimit: 1_000_000,
-    // gasPrice: 50_000_000_000,
+    type: 1,
+    gasPrice: 70_000_000_000,
   },
   [ChainSlug.BSC]: {
     // type: 1,
