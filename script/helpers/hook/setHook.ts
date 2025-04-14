@@ -5,6 +5,8 @@ export const main = async () => {
   let hookAddress = "";
   let provider;
 
+  console.log("name:", network.name);
+
   if (network.name === "polter") {
     // polter-testnet
     controllerAddress = "0x49017f31dB018eAD84E67A382B5f3f796695aAc3";
@@ -18,9 +20,12 @@ export const main = async () => {
     provider = new ethers.providers.JsonRpcProvider(
       process.env.POLYGON_AMOY_RPC
     );
-  } else if (network.name === "matic") {
-    controllerAddress = "";
-    hookAddress = "";
+  } else if (network.name === "polygon_mainnet") {
+    controllerAddress = "0xA5562dA24474B61a2a3bC8B5544f550Cdf920289";
+    hookAddress = "0x0000000000000000000000000000000000000000";
+    provider = new ethers.providers.JsonRpcProvider(
+      process.env.POLYGON_MAINNET_RPC
+    );
   } else if (network.name === "geist") {
     controllerAddress = "";
     hookAddress = "";
@@ -46,7 +51,7 @@ export const main = async () => {
     console.log("hookAddressBefore", hookAddressBefore);
 
     console.log("updating hook");
-    const tx = await bridgeContract.updateHook(hookAddress, true, {
+    const tx = await bridgeContract.updateHook(hookAddress, false, {
       gasPrice: 30000000000,
     });
     console.log("tx", tx.hash);
