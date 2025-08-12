@@ -26,4 +26,5 @@ export enum Project {
   SOCKET_GHST_TESTNET = "socket_ghst_testnet",
   ALCHEMICA_TESTNET = "alchemica_testnet",
   AAVEGOTCHI_ALCHEMICA_MAINNET = "aavegotchi_alchemica_mainnet",
+  ALCHEMICA_BASE_MAINNET = "alchemica_base_mainnet",
 }

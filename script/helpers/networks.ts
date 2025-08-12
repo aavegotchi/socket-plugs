@@ -88,9 +88,9 @@ export const overrides: {
     // gasPrice: 10_000_000_000,
   },
   [ChainSlug.BASE]: {
-    // type: 1,
-    // gasLimit: 5_000_000,
-    // gasPrice,
+    type: 2,
+    gasLimit: 5_000_000,
+    // gasPrice is left undefined for EIP-1559 automatic fee estimation
   },
   [ChainSlug.REYA_CRONOS]: {
     type: 1,
